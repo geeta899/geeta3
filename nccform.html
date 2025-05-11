@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NCC Form</title>
+    <style>
+        body {
+            background-color: #dce6fa;
+            color: #2c3e50;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header img {
+            margin-left: 350px;
+            display: flex;
+        }
+
+        #hr {
+            margin-left: 0;
+            width: 460px;
+            height: 2px;
+            background-color: black;
+        }
+
+        #gp {
+            margin-top: -120px;
+            margin-left: 540px;
+            line-height: 2px;
+            font-size: xx-large;
+            margin-bottom: 78px;
+        }
+
+        #Section1 {
+            margin-left: 100px;
+            width: 85vw;
+            height: 40vh;
+            background-color: #dce6fa;
+        }
+
+        #Ncc {
+            margin-left: 100px;
+            background-color: #fbfbfd;
+            padding: 20px;
+            border-radius: 10px;
+            width: 80%;
+        }
+
+        #form {
+            margin-bottom: 20px;
+            color: #021e3a;
+            text-align: center;
+        }
+
+        input, label, button {
+            color: #2c3e50;
+            margin: 5px;
+        }
+
+        button {
+            background-color: #1e90ff;
+            color: #ffffff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            margin-top: 50px;
+        }
+
+        #sec4 {
+            border-radius: 20px;
+            margin: 0 auto;
+            padding: 40px;
+            max-width: 90%;
+        }
+
+        #footer-content {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        #divfoot {
+            max-width: 600px;
+            line-height: 25px;
+            font-size: large;
+        }
+
+        .contact-block {
+            max-width: 400px;
+            text-align: left;
+        }
+
+        .contact-block h2 {
+            text-decoration: underline;
+            margin-bottom: 10px;
+        }
+
+        #Copyright {
+            font-size: 20px;
+            text-align: center;
+            margin-top: 20px;
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <section id="Section1">
+            <img width="200px" height="200px"
+                src="https://thcf.bing.com/th/id/OIP.iKl7XJdApT4JaRcMKyLbjgAAAA?w=229&h=229&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"
+                alt="G.P Nainital logo">
+            <div>
+                <h1 id="gp">राजकीय पॉलीटेक्निक नैनीताल
+                    <hr id="hr"> Government Polytechnic Nainital
+                </h1>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <div id="Ncc">
+            <h1 id="form">NCC Form</h1>
+            <h3>Discipline, Duty, and Determination: March forward with courage, serve with pride, and lead with honor!</h3>
+            <form>
+                <div><label>Name:</label><input placeholder="Enter your name" type="text"></div>
+                <div><label>Email:</label><input placeholder="Enter your email" type="email"></div>
+                <div><label>Contact No.:</label><input placeholder="Enter your number" type="number"></div>
+                <div>
+                    <label>Gender:</label>
+                    <input type="radio" name="gender"> Male
+                    <input type="radio" name="gender"> Female
+                    <input type="radio" name="gender"> Transgender
+                </div>
+                <div>
+                    <label>Choose your preference:</label><br>
+                    <input type="radio" name="NCC"> Army NCC<br>
+                    <input type="radio" name="NCC"> Naval NCC
+                </div>
+                <div>
+                    <label>Choose your hobbies:</label><br>
+                    <input type="checkbox"> Defence
+                    <input type="checkbox"> Education
+                    <input type="checkbox"> Business
+                    <input type="checkbox"> Entrepreneurship
+                    <input type="checkbox"> Politics
+                    <input type="checkbox"> Sports
+                </div>
+                <div>
+                    <label>Password:</label><input type="password" placeholder="Enter password"><br>
+                    <label>Confirm Password:</label><input type="password" placeholder="Confirm password">
+                </div><br>
+                <button>Submit</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <section id="sec4">
+            <div id="footer-content">
+                <div id="divfoot">
+                    <h2 style="text-decoration: underline;">Government Polytechnic Nainital</h2>
+                    Government Polytechnic Nainital, established in 1957, recently celebrated its 67th anniversary of
+                    imparting high quality education to the students of Uttarakhand. G.P Nainital is affiliated with
+                    the Uttarakhand Board of Technical Education, Roorkee.
+                </div>
+
+                <div class="contact-block">
+                    <h2>Contact Us</h2>
+                    <p>
+                        Sherwani, Nainital<br>
+                        Uttarakhand 263001<br>
+                        05942-236251<br>
+                        govtpoly_ntl@rediffmail.com
+                    </p>
+                </div>
+            </div>
+        </section>
+        <p id="Copyright">
+            &copy; GOVERNMENT POLYTECHNIC NAINITAL. All Rights Reserved.
+        </p>
+    </footer>
+</body>
+</html>

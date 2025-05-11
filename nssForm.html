@@ -1,0 +1,163 @@
+x<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NSS Form</title>
+    <style>
+        body {
+            background-color: #f0f8ff;
+            color: #2c3e50;
+            font-family: Arial, sans-serif;
+        }
+
+        header, footer {
+            text-align: center;
+        }
+
+        #Section1 {
+            background-color: #ffffff;
+            padding: 20px;
+        }
+
+        img {
+            display: flex;
+            margin: 0 auto;
+        }
+
+        #gp {
+            font-size: 24px;
+            margin-top: 10px;
+        }
+
+        #hr {
+            width: 60%;
+            height: 2px;
+            background-color: black;
+            margin: 10px auto;
+        }
+
+        .form-wrapper {
+            max-width: 600px;
+            margin: 30px auto;
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-wrapper h1, .form-wrapper h3 {
+            text-align: center;
+        }
+
+        .form-wrapper input, .form-wrapper label {
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        .form-wrapper input[type="radio"],
+        .form-wrapper input[type="checkbox"] {
+            width: auto;
+            display: inline-block;
+            margin-right: 5px;
+        }
+
+        .form-wrapper button {
+            margin-top: 15px;
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            background-color: #1e90ff;
+            color: white;
+            border: none;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            padding: 30px 10px;
+            margin-top: 40px;
+        }
+
+        #contact_us {
+            margin-top: 20px;
+        }
+
+        #Copyright {
+            margin-top: 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <section id="Section1">
+            <img width="150px" height="150px" src="logo.png.jpg" alt="logo.png.jpg">
+            <h1 id="gp">राजकीय पॉलीटेक्निक नैनीताल<br>Government Polytechnic Nainital</h1>
+            <div id="hr"></div>
+        </section>
+    </header>
+
+    <main>
+        <div class="form-wrapper">
+            <h1>NSS Form</h1>
+            <h3>"निष्काम सेवा परिवर्तनं जनयति—अन्यान् उद्धर, करुणया वर्धस्व, आदर्शं प्रदर्शय च!"<br>
+            Selfless service ignites change—dedicate yourself to uplift others, grow with compassion, and lead by example!</h3>
+
+            <form>
+                <label>Name:</label>
+                <input type="text" placeholder="Enter your name">
+
+                <label>Email:</label>
+                <input type="email" placeholder="Enter your email">
+
+                <label>Contact No.:</label>
+                <input type="number" placeholder="Enter your contact number">
+
+                <label>Gender:</label>
+                <input type="radio" name="gender"> Male
+                <input type="radio" name="gender"> Female
+                <input type="radio" name="gender"> Transgender
+
+                <label>Choose Your Hobbies:</label>
+                <input type="checkbox"> Defence
+                <input type="checkbox"> Education
+                <input type="checkbox"> Business
+                <input type="checkbox"> Entrepreneurship
+                <input type="checkbox"> Politics
+                <input type="checkbox"> Sports
+
+                <label>Password:</label>
+                <input type="password" placeholder="Enter strong password">
+
+                <label>Confirm Password:</label>
+                <input type="password" placeholder="Confirm your password">
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <h2>Government Polytechnic Nainital</h2>
+        <p>
+            Government Polytechnic Nainital, established in 1957, recently celebrated its 67th anniversary of
+            imparting high-quality education to the students of Uttarakhand.<br>
+            G.P. Nainital is affiliated with the Uttarakhand Board of Technical Education Roorkee.
+        </p>
+        <div id="contact_us">
+            <strong>Contact Us:</strong><br>
+            Sherwani, Nainital, Uttarakhand 263001<br>
+            05942-236251<br>
+            govtpoly_ntl@rediffmail.com
+        </div>
+        <p id="Copyright">
+            &copy; GOVERNMENT POLYTECHNIC NAINITAL. All Rights Reserved.
+        </p>
+    </footer>
+
+</body>
+</html>
